@@ -1,0 +1,176 @@
+
+.danger {background-color: #f44336;}
+.info {background-color: #2196F3;}
+
+.row-header {
+    margin: 0px auto;
+    padding: 50px 0px; }
+  
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px; }
+  
+  
+  .jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background:#f1f1f1;
+    color: rgb(40, 41, 40); }
+  
+  address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f; }
+  
+  body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0px; }
+  
+  .navbar-inverse {
+    background-color:  #c0c4c4; }
+  
+  .tab-content {
+    border-left: 1px solid rgb(151, 113, 240);
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px; }
+  
+  
+  /*tab prop */
+  /* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+  
+}
+.img{
+  height: 350px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float:center;
+    margin-left: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: #2196F3;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+   margin-top: 40px;
+}
+/* Card Prop */
+.card{
+  border:none;
+  margin: 50px;
+ 
+}
+.card-title{
+  padding: 10px;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.footer {
+  background-color:gainsboro;
+  margin: 0px auto;
+  padding: 20px 0px;
+width: 100% }
+
+  .text{
+    margin-top: 20px;
+   text-align: center;
+   opacity: 0.7;
+  }
+.responsive{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  max-width: 1500px;
+  height: 350px;
+  opacity: 0.7;
+}
+.card-body{
+
+  text-align: center;
+
+}
+.card-content{
+  color: floralwhite;
+}
+.header-content{
+  font-family: fantasy;
+  font-size:64px;
+}
